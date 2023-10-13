@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 
+import businessAcumenImg from '../public/assets/skills/business_acumen.png'
+
 function Skills() {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
@@ -13,7 +15,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image 
-                  src='../public/assets/skills/business_acumen.png' 
+                  src={businessAcumenImg} 
                   width='64' 
                   height='64' 
                   alt='/' 
