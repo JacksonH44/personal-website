@@ -13,7 +13,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image 
-                  src='/../assets/skills/business_acumen.png' 
+                  src='../public/assets/skills/business_acumen.png' 
                   width='64' 
                   height='64' 
                   alt='/' 
