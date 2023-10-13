@@ -23,8 +23,11 @@ const slideSleuth = () => {
             <p>
               This is a description of my project lalala.
             </p>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-            <button className='px-8 py-2 mt-4'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <Link href="https://github.com/JacksonH44/SlideSleuth">
+                Code
+              </Link>
+            </button>
           </div>
           <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='p-2'>
