@@ -1,5 +1,5 @@
 import React from 'react'
-import slideSleuthImg from '../public/assets/projects/slideSleuth.png'
+import slideSleuthImg from '../public/assets/projects/slidesleuth.png'
 import CCIImg from '../public/assets/projects/cci.png'
 import kuramotoImg from '../public/assets/projects/kuramoto_esn.png'
 import primalityImg from '../public/assets/projects/primality_testing.png'
