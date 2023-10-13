@@ -2,6 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 
 import businessAcumenImg from '../public/assets/skills/business_acumen.png'
+import communicationImg from '../public/assets/skills/communication.png'
+import dataVisualizationImg from '../public/assets/skills/data_visualization.png'
+import gitImg from '../public/assets/skills/git.png'
+import githubImg from '../public/assets/skills/github.png'
+import machineLearningImg from '../public/assets/skills/machineLearning.png'
+import OOPImg from '../public/assets/skills/object_oriented_programming.png'
+import pythonImg from '../public/assets/skills/python.png'
 
 function Skills() {
   return (
@@ -31,7 +38,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image 
-                  src='/../assets/skills/communication.png' 
+                  src={communicationImg} 
                   width='64' 
                   height='64' 
                   alt='/' 
@@ -47,7 +54,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image 
-                  src='/../assets/skills/data_visualization.png' 
+                  src={dataVisualizationImg} 
                   width='64' 
                   height='64' 
                   alt='/' 
@@ -63,7 +70,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image 
-                  src='/../assets/skills/git.png' 
+                  src={gitImg} 
                   width='64' 
                   height='64' 
                   alt='/' 
@@ -79,7 +86,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image 
-                  src='/../assets/skills/github.png' 
+                  src={githubImg} 
                   width='64' 
                   height='64' 
                   alt='/' 
@@ -95,7 +102,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image 
-                  src='/../assets/skills/machine_learning.png' 
+                  src={machineLearningImg} 
                   width='64' 
                   height='64' 
                   alt='/' 
@@ -111,7 +118,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image 
-                  src='/../assets/skills/object_oriented_programming.png' 
+                  src={OOPImg} 
                   width='64' 
                   height='64' 
                   alt='/' 
@@ -127,7 +134,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image 
-                  src='/../assets/skills/python.png' 
+                  src={pythonImg} 
                   width='64' 
                   height='64' 
                   alt='/' 
