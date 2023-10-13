@@ -6,7 +6,7 @@ import communicationImg from '../public/assets/skills/communication.png'
 import dataVisualizationImg from '../public/assets/skills/data_visualization.png'
 import gitImg from '../public/assets/skills/git.png'
 import githubImg from '../public/assets/skills/github.png'
-import machineLearningImg from '../public/assets/skills/machineLearning.png'
+import machineLearningImg from '../public/assets/skills/machine_learning.png'
 import OOPImg from '../public/assets/skills/object_oriented_programming.png'
 import pythonImg from '../public/assets/skills/python.png'
 
