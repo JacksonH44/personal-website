@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useRouter } from 'next/router'
 
-import navImg from '../public/assets/navLogo.png'
+import navImg from '../public/data-science.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -51,7 +51,7 @@ const Navbar = () => {
     className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-        <Image src={navImg} alt="/" width='125' height='50' />
+        <Image className='mx-4' src={navImg} alt="/" width='65' height='15' />
         </Link>
         <div>
           <ul style={{color: `${linkColour}`}} className='hidden md:flex'>

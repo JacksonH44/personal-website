@@ -137,7 +137,7 @@ const ContactForm = () => {
               </div>
               </FormControl>
               <Button
-                className='w-full p-4 text-gray-100 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff]'
+                className='w-full p-4 text-gray-100 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5438dc] to-[#357ded]'
                 variant="outline"
                 colorScheme='blue'
                 disabled={!values.name || !values.email || !values.subject || !values.message}

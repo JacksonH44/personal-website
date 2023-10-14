@@ -3,7 +3,7 @@ import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import { ChakraProvider, ToastProvider } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react'
 
 const Main = () => {
   return (
@@ -15,7 +15,7 @@ const Main = () => {
               className='uppercase text-sm tracking-widest text-gray-600'>Let's Work Together
              </p>
               <h1 className='py-4 text-gray-700'>
-                Hi, I'm <span className='text-[#81f296]'>Jackson</span>
+                Hi, I'm <span className='text-[#5438dc]'>Jackson</span>
               </h1>
               <h1 className='py-2 text-gray-700'>
                 I Love Solving Problems
