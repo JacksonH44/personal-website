@@ -28,7 +28,7 @@ const cci = () => {
             <p>Project</p>
             <h2>Description</h2>
             <p className='mt-4'>
-              In the winter of 2021, I was a member of <a className='underline text-[#0A95FF]' href="https://www.eng.uwo.ca/rbcdt/index.html">RBC’s Design Thinking Program</a> cohort at Western University. Over 12 weeks, I worked in a team to develop a prototype of a technical product that benefits university students at Western University. Our team created a product, the Clean Coffee Initiative, that aimed to encourage university students to be more sustainable when purchasing and drinking coffee. Our group presented our product prototype to Western University senior faculty as well as RBC executives.
+              In the winter of 2022, I was a member of <a className='underline text-[#0A95FF]' href="https://www.eng.uwo.ca/rbcdt/index.html">RBC’s Design Thinking Program</a> cohort at Western University. Over 12 weeks, I worked in a team to develop a prototype of a technical product that benefits university students at Western University. Our team created a product, the Clean Coffee Initiative, that aimed to encourage university students to be more sustainable when purchasing and drinking coffee. Our group presented our product prototype to Western University senior faculty as well as RBC executives.
             </p>
             <br />
             <p>

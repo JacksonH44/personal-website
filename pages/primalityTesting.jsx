@@ -27,8 +27,8 @@ const primalityTesting = () => {
           <div className='col-span-4'>
             <p>Project</p>
             <h2>Description</h2>
-            <p>
-              This is a description of my project lalala.
+            <p className='mt-4'>
+              In the winter of 2022, I was a member of the <a className='underline text-[#0A95FF]' href="https://www.math.uwo.ca/undergraduate/current_students/directed_reading_program.html">Directed Reading Program</a> in the mathematics department at Western University. I researched primality testing algorithms, which underlie much of the cryptographic protocols of modern security systems, such as RSA encryption. The three algorithms I researched, implemented, and proved were <a className='underline text-[#0A95FF]' href="https://en.wikipedia.org/wiki/Fermat%27s_little_theorem">Fermat's Little Theorem</a>, the <a className='underline text-[#0A95FF]' href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">Sieve of Eratosthenes</a>, and the <a className='underline text-[#0A95FF]' href="https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test">Miller-Rabin Test</a>. I implemented these algorithms in <strong>Python</strong>, and presented my work at the Western Undergraduate Reading Program Seminar on April 2, 2022.
             </p>
             <button className='px-8 py-2 mt-4 mr-8'>
                 <Link href="https://github.com/JacksonH44/PrimalityTesting/tree/main">
