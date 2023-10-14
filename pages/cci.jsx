@@ -27,12 +27,16 @@ const cci = () => {
           <div className='col-span-4'>
             <p>Project</p>
             <h2>Description</h2>
+            <p className='mt-4'>
+              In the winter of 2021, I was a member of <a className='underline text-[#0A95FF]' href="https://www.eng.uwo.ca/rbcdt/index.html">RBC’s Design Thinking Program</a> cohort at Western University. Over 12 weeks, I worked in a team to develop a prototype of a technical product that benefits university students at Western University. Our team created a product, the Clean Coffee Initiative, that aimed to encourage university students to be more sustainable when purchasing and drinking coffee. Our group presented our product prototype to Western University senior faculty as well as RBC executives.
+            </p>
+            <br />
             <p>
-              This is a description of my project lalala.
+              In addition to the Clean Coffee Initiative prototype, I attended weekly seminars from RBC employees on <strong>design thinking</strong>, <strong>UI/UX design</strong>, inclusive design, technical consulting, and oral presentation skills. Product ideation, mock-ups, prototyping, and presentation were done in <strong>Figma</strong>. I’d like to think that our discussion and initiative helps contribute to Western University’s <a className='underline text-[#0A95FF]' href="https://news.westernu.ca/2023/06/western-top-10-global-universities/">top 10 ranking in global sustainability</a>.
             </p>
             <button className='px-8 py-2 mt-4 mr-8 cursor-pointer hover:scale-110 ease-in duration-300'>
               <Link href="https://www.figma.com/proto/1skb5vAMvSwDxG6SNMEgMU/Prototype---Design-Lions?node-id=175-2574&starting-point-node-id=195%3A2941&mode=design&t=3kuG83B6neHXlpVp-1">
-                Mock-up
+                Prototype
               </Link>
             </button>
           </div>
