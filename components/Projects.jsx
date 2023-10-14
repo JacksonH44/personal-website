@@ -1,8 +1,8 @@
 import React from 'react'
-import slideSleuthImg from '../public/assets/projects/mars_building.png'
-import CCIImg from '../public/assets/projects/cci.png'
-import kuramotoImg from '../public/assets/projects/kuramoto_esn.png'
-import primalityImg from '../public/assets/projects/primality_testing.png'
+import slideSleuthImg from '../public/assets/projects/mars_building.jpg'
+import CCIImg from '../public/assets/projects/design_thinking.jpg'
+import kuramotoImg from '../public/assets/projects/brain_network.jpg'
+import primalityImg from '../public/assets/projects/enigma_machine.jpg'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -13,13 +13,13 @@ const Projects = () => {
         <h2 className='py-4'>What I've Worked On</h2>
         <div className='grid md:grid-cols-2 gap-8'>
 
-        <ProjectItem title='SlideSleuth: Deep Learning Oncology' backgroundImg={slideSleuthImg} projectUrl='/slideSleuth' tech='Python | Tensorflow | R' />
+        <ProjectItem title='SlideSleuth: Deep Learning Oncology' backgroundImg={slideSleuthImg} projectUrl='/slideSleuth' tech='Python | Tensorflow | Pandas | numPy | R' />
 
-        <ProjectItem title='Clean Coffee Initiative' backgroundImg={CCIImg} projectUrl='/cci' tech='Figma' />
+        <ProjectItem title='Clean Coffee Initiative: Design Thinking' backgroundImg={CCIImg} projectUrl='/cci' tech='Figma | UI/UX Design | Product Design' />
 
-        <ProjectItem title='KuramotoESN: Reservoir Computing' backgroundImg={kuramotoImg} projectUrl='/kuramoto' tech='matlab | Python | C'/>
+        <ProjectItem title='KuramotoESN: Neuroscience-Informed Machine Learning' backgroundImg={kuramotoImg} projectUrl='/kuramoto' tech='MATLAB | C | Bash'/>
 
-        <ProjectItem title='Primality Testing' backgroundImg={primalityImg} projectUrl='/primalityTesting' tech='Python'/>
+        <ProjectItem title='Cryptography: Primality Testing' backgroundImg={primalityImg} projectUrl='/primalityTesting' tech='Python'/>
 
         </div>
       </div>

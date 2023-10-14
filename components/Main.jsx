@@ -18,7 +18,10 @@ const Main = () => {
                 Hi, I'm <span className='text-[#5438dc]'>Jackson</span>
               </h1>
               <h1 className='py-2 text-gray-700'>
-                I Love Solving Problems
+                I'm Passionate About
+              </h1>
+              <h1 className='py-4 text-gray-700'>
+                <span className='text-[#5438dc]'>Problem-Solving</span>
               </h1>
               <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                 I'm a computer science and mathematics student interested in using data-driven techniques to analyze and solve problems. I love being a part of a team and communicating solutions to interested stakeholders.

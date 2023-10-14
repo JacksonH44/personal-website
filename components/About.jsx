@@ -8,7 +8,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5438dc]'>About</p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I am a fun-loving student at the University of Waterloo who enjoys solving problems using both quantitative and qualitative approaches. In 2021, I took my first programming class in university and loved it so much, I switched my major from business to computer science. I've been using technology ever since then to explore and solve problems that I find fascinating.
+            I am a dedicated and curious student at the University of Waterloo who enjoys solving problems using both quantitative and qualitative approaches. In 2021, I took my first programming class in university and loved it so much, I switched my major from business to computer science. I've been using technology ever since then to explore and solve problems that I find fascinating.
           </p>
           <p className='py-2 text-gray-600'>
             Recently, I've been using data-driven and machine learning approaches to solve problems related to statistical physics and digital oncology. In my spare time I enjoy listening to music (my current favourites are The Cranberries, The Smiths, and Crystal Castles), watching baseball with my girlfriend, and long-distance running. I love meeting new people, traveling, and storytelling.
