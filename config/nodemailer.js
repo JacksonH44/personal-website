@@ -4,7 +4,10 @@ const email = process.env.GOOGLE_EMAIL;
 const pass = process.env.GOOGLE_PASSWORD;
 
 export const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  service: 'Gmail',
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true,
   auth:{
     user: email,
     pass: pass,
