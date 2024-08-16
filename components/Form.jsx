@@ -51,7 +51,7 @@ const ContactForm = () => {
       setTouched({});
       setState(initState);
       toast({
-        title: "Message sent.",
+        title: "Message sent!",
         status: "success",
         duration: 2000,
         position: "top",
