@@ -28,7 +28,7 @@ const handler = async (req, res) => {
   if (req.method === "POST") {
     const data = req.body;
     if (!data.name || !data.email || !data.subject || !data.message) {
-      return res.status(400).json({ message: "Bad request" });
+      return res.status(400).json({ message: "One of the following required data fields is missing: name, email, subject, message" });
     }
 
     try {
@@ -45,7 +45,7 @@ const handler = async (req, res) => {
     }
   }
 
-  return res.status(400).json({ message: "Bad request" });
+  return res.status(400).json({ message: "Error: The request to send mail was not a POST request." });
 }
 
 export default handler;

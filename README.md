@@ -33,7 +33,12 @@ Create a `.env` file in the root directory of this project by copying the templa
 ```bash
 cp .env.template .env
 ```
-and filling the required environment variables. You might need an app-specific password if your email has 2FA.
+and filling the required environment variables. You might need an app-specific password if your email has 2FA. Also, for testing
+email functionality on a local server, add the line:
+```bash
+NEXT_PUBLIC_VERCEL_ENV=local
+```
+to the file.
 
 ## Deploy on Vercel
 
