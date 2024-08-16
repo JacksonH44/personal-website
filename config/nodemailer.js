@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
-const email = process.env.REACT_APP_GOOGLE_EMAIL;
-const pass = process.env.REACT_APP_GOOGLE_PASSWORD;
+const email = process.env.GOOGLE_EMAIL;
+const pass = process.env.GOOGLE_PASSWORD;
 
 export const transporter = nodemailer.createTransport({
   service: 'Gmail',
