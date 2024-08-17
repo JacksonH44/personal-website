@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image';
+import Image from "next/image";
 import Link from 'next/link'
 import React from 'react';
 import cciImg from '../public/assets/projects/design_thinking.jpg'
@@ -16,7 +16,15 @@ const cci = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-l' layout='fill' objectFit='cover' src={cciImg} alt='/' />
+        <Image
+          className='absolute z-l'
+          src={cciImg}
+          alt='/'
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: "cover"
+          }} />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Clean Coffee Initiative</h2>
           <h3>Figma / UI/UX Design / Product Design</h3>
@@ -59,7 +67,7 @@ const cci = () => {
 
     </div>
     </div>
-  )
+  );
 }
 
 export default cci;

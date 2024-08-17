@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image"
 import React from 'react'
 
 import businessAcumenImg from '../public/assets/skills/business_acumen.png'
@@ -21,12 +21,15 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image 
-                  src={businessAcumenImg} 
-                  width='64' 
-                  height='64' 
-                  alt='/' 
-                />
+                <Image
+                  src={businessAcumenImg}
+                  width='64'
+                  height='64'
+                  alt='/'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Business Acumen</h3>
@@ -37,12 +40,15 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image 
-                  src={communicationImg} 
-                  width='64' 
-                  height='64' 
-                  alt='/' 
-                />
+                <Image
+                  src={communicationImg}
+                  width='64'
+                  height='64'
+                  alt='/'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Communication</h3>
@@ -53,12 +59,15 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image 
-                  src={dataVisualizationImg} 
-                  width='64' 
-                  height='64' 
-                  alt='/' 
-                />
+                <Image
+                  src={dataVisualizationImg}
+                  width='64'
+                  height='64'
+                  alt='/'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Data Visualization</h3>
@@ -69,12 +78,15 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image 
-                  src={gitImg} 
-                  width='64' 
-                  height='64' 
-                  alt='/' 
-                />
+                <Image
+                  src={gitImg}
+                  width='64'
+                  height='64'
+                  alt='/'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Git</h3>
@@ -85,12 +97,15 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image 
-                  src={githubImg} 
-                  width='64' 
-                  height='64' 
-                  alt='/' 
-                />
+                <Image
+                  src={githubImg}
+                  width='64'
+                  height='64'
+                  alt='/'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Github</h3>
@@ -101,12 +116,15 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image 
-                  src={machineLearningImg} 
-                  width='64' 
-                  height='64' 
-                  alt='/' 
-                />
+                <Image
+                  src={machineLearningImg}
+                  width='64'
+                  height='64'
+                  alt='/'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Machine Learning</h3>
@@ -117,12 +135,15 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image 
-                  src={OOPImg} 
-                  width='64' 
-                  height='64' 
-                  alt='/' 
-                />
+                <Image
+                  src={OOPImg}
+                  width='64'
+                  height='64'
+                  alt='/'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Object Oriented Design</h3>
@@ -133,12 +154,15 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image 
-                  src={pythonImg} 
-                  width='64' 
-                  height='64' 
-                  alt='/' 
-                />
+                <Image
+                  src={pythonImg}
+                  width='64'
+                  height='64'
+                  alt='/'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Python Programming</h3>
@@ -149,7 +173,7 @@ function Skills() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Skills

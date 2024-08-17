@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image"
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
@@ -51,7 +51,16 @@ const Navbar = () => {
     className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-        <Image className='mx-2' src={navImg} alt="/" width='65' height='15' />
+        <Image
+          className='mx-2'
+          src={navImg}
+          alt="/"
+          width='65'
+          height='15'
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         </Link>
         <div>
           <ul style={{color: `${linkColour}`}} className='hidden md:flex'>
@@ -84,7 +93,15 @@ const Navbar = () => {
       <div>
         <div className='flex w-full items-center justify-between'>
           <Link href='/'>
-            <Image src='/../assets/navLogo.png' width='87' height='35' alt='/' />
+            <Image
+              src='/../assets/navLogo.png'
+              width='87'
+              height='35'
+              alt='/'
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </Link>
           <div onClick={ handleNav } className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
             <AiOutlineClose />
@@ -133,7 +150,7 @@ const Navbar = () => {
       </div>
     </div>
     </div>
-  )
+  );
 }
 
 export default Navbar;

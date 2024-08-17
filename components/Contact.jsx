@@ -25,7 +25,7 @@ const Contact = () => {
               <div>
                 <h2 className='py-2'>Jackson Howe</h2>
                 <p>Computer Science and Mathematics Student</p>
-                <p className='py-4'>I am available for co-op positions for Summer 2024, and full-time positions starting Winter 2025</p>
+                <p className='py-4'>I am graduating in the Spring of 2025, and looking for full-time roles starting Summer 2025.</p>
               </div>
               <div>
               <p className='uppercase pt-8'>Connect With Me</p>

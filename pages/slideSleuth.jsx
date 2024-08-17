@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image';
+import Image from "next/image";
 import Link from 'next/link'
 import React from 'react';
 import slideSleuthImg from '../public/assets/projects/mars_building.jpg'
@@ -16,7 +16,15 @@ const slideSleuth = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-l' layout='fill' objectFit='cover' src={slideSleuthImg} alt='/' />
+        <Image
+          className='absolute z-l'
+          src={slideSleuthImg}
+          alt='/'
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: "cover"
+          }} />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>SlideSleuth: Deep Learning Oncology</h2>
           <h3>Python / Tensorflow / Pandas / numPy / R</h3>
@@ -60,7 +68,7 @@ const slideSleuth = () => {
 
     </div>
     </div>
-  )
+  );
 }
 
 export default slideSleuth;
