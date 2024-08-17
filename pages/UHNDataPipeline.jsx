@@ -5,7 +5,7 @@ import React from 'react';
 import pmccImg from '../public/assets/projects/pmccrt.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri'
 
-export default DataPipeline = () => {
+export default function DataPipeline() {
   return (
     <div>
     <Head>
