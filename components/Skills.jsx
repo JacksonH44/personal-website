@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import React from 'react'
 
 import businessAcumenImg from '../public/assets/skills/business_acumen.png'
