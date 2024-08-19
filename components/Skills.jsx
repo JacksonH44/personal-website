@@ -1,14 +1,13 @@
-import Image from "next/image"
 import React from 'react'
 
-import businessAcumenImg from '../public/assets/skills/business_acumen.png'
-import communicationImg from '../public/assets/skills/communication.png'
-import dataVisualizationImg from '../public/assets/skills/data_visualization.png'
-import gitImg from '../public/assets/skills/git.png'
-import githubImg from '../public/assets/skills/github.png'
-import machineLearningImg from '../public/assets/skills/machine_learning.png'
-import OOPImg from '../public/assets/skills/object_oriented_programming.png'
+import androidImg from '../public/assets/skills/android.png'
+import dockerImg from '../public/assets/skills/docker.png'
+import nextjsImg from '../public/assets/skills/nextjs.png'
+import postgresImg from '../public/assets/skills/postgresql.png'
+import powerBIImg from '../public/assets/skills/power_bi.png'
 import pythonImg from '../public/assets/skills/python.png'
+import reactImg from '../public/assets/skills/react.png'
+import tsImg from '../public/assets/skills/typescript.png'
 import SkillItem from "./SkillItem"
 
 function Skills() {
@@ -19,21 +18,22 @@ function Skills() {
         <h2 className='py-4'>What I Can Offer</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
-          <SkillItem imageUrl={businessAcumenImg} description={"Business Acumen"}/>
-
-          <SkillItem imageUrl={communicationImg} description={"Communication"}/>
-
-          <SkillItem imageUrl={dataVisualizationImg} description={"Data Visualization"}/>
-
-          <SkillItem imageUrl={gitImg} description={"Git"}/>
-
-          <SkillItem imageUrl={githubImg} description={"Github"}/>
-
-          <SkillItem imageUrl={machineLearningImg} description={"Machine Learning"}/>
-
-          <SkillItem imageUrl={OOPImg} description={"Object-Oriented Programming"}/>
-          
           <SkillItem imageUrl={pythonImg} description={"Python Programming"}/>
+
+          <SkillItem imageUrl={androidImg} description={"Android Development"}/>
+
+          <SkillItem imageUrl={tsImg} description={"TypeScript"}/>
+
+          <SkillItem imageUrl={nextjsImg} description={"Next.js"}/>
+
+          <SkillItem imageUrl={reactImg} description={"React.js"}/>
+
+          <SkillItem imageUrl={dockerImg} description={"Docker"}/>
+
+          <SkillItem imageUrl={postgresImg} description={"PostgreSQL"}/>
+
+          <SkillItem imageUrl={powerBIImg} description={"PowerBI"}/>
+          
 
         </div>
       </div>
