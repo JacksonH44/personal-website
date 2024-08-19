@@ -9,6 +9,7 @@ import githubImg from '../public/assets/skills/github.png'
 import machineLearningImg from '../public/assets/skills/machine_learning.png'
 import OOPImg from '../public/assets/skills/object_oriented_programming.png'
 import pythonImg from '../public/assets/skills/python.png'
+import SkillItem from "./SkillItem"
 
 function Skills() {
   return (
@@ -18,157 +19,21 @@ function Skills() {
         <h2 className='py-4'>What I Can Offer</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={businessAcumenImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Business Acumen</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={businessAcumenImg} description={"Business Acumen"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={communicationImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Communication</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={communicationImg} description={"Communication"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={dataVisualizationImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Data Visualization</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={dataVisualizationImg} description={"Data Visualization"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={gitImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Git</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={gitImg} description={"Git"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={githubImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Github</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={githubImg} description={"Github"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={machineLearningImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Machine Learning</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={machineLearningImg} description={"Machine Learning"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={OOPImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Object Oriented Design</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={pythonImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Python Programming</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={OOPImg} description={"Object-Oriented Programming"}/>
+          
+          <SkillItem imageUrl={pythonImg} description={"Python Programming"}/>
 
         </div>
       </div>
