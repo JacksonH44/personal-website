@@ -1,14 +1,14 @@
-import Image from "next/image"
 import React from 'react'
 
-import businessAcumenImg from '../public/assets/skills/business_acumen.png'
-import communicationImg from '../public/assets/skills/communication.png'
-import dataVisualizationImg from '../public/assets/skills/data_visualization.png'
-import gitImg from '../public/assets/skills/git.png'
-import githubImg from '../public/assets/skills/github.png'
-import machineLearningImg from '../public/assets/skills/machine_learning.png'
-import OOPImg from '../public/assets/skills/object_oriented_programming.png'
+import androidImg from '../public/assets/skills/android.png'
+import dockerImg from '../public/assets/skills/docker.png'
+import nextjsImg from '../public/assets/skills/nextjs.png'
+import postgresImg from '../public/assets/skills/postgresql.png'
+import powerBIImg from '../public/assets/skills/power_bi.png'
 import pythonImg from '../public/assets/skills/python.png'
+import reactImg from '../public/assets/skills/react.png'
+import tsImg from '../public/assets/skills/typescript.png'
+import SkillItem from "./SkillItem"
 
 function Skills() {
   return (
@@ -18,157 +18,22 @@ function Skills() {
         <h2 className='py-4'>What I Can Offer</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={businessAcumenImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Business Acumen</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={pythonImg} description={"Python Programming"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={communicationImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Communication</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={androidImg} description={"Android Development"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={dataVisualizationImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Data Visualization</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={tsImg} description={"TypeScript"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={gitImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Git</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={nextjsImg} description={"Next.js"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={githubImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Github</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={reactImg} description={"React.js"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={machineLearningImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Machine Learning</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={dockerImg} description={"Docker"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={OOPImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Object Oriented Design</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={postgresImg} description={"PostgreSQL"}/>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image
-                  src={pythonImg}
-                  width='64'
-                  height='64'
-                  alt='/'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto"
-                  }} />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Python Programming</h3>
-              </div>
-            </div>
-          </div>
+          <SkillItem imageUrl={powerBIImg} description={"PowerBI"}/>
+          
 
         </div>
       </div>
