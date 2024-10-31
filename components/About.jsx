@@ -11,7 +11,7 @@ const About = () => {
             I am a dedicated and curious student at the University of Waterloo who enjoys solving problems using both quantitative and qualitative approaches. In 2021, I took my first programming class in university and loved it so much, I switched my major from business to computer science. I've been using technology ever since then to explore and solve problems that I find fascinating.
           </p>
           <p className='py-2 text-gray-600'>
-            I've been using data-driven and machine learning approaches to solve problems related to statistical physics and digital oncology. I've also been learning web development - I made this website with React.js, Next.js, and TailwindCSS. In my spare time I enjoy listening to music (my current favourites are The Cranberries, The Smiths, and Crystal Castles), watching baseball with my girlfriend, and long-distance running. I love meeting new people, traveling, and storytelling.
+            In my spare time I enjoy listening to music (my current favourites are The Cranberries, The Smiths, and Crystal Castles), watching baseball with my girlfriend, and long-distance running. I love meeting new people, traveling, and storytelling.
           </p>
           <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
         </div>
